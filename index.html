@@ -5,8 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Homework</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    This is my Homework!
+    <main>
+        <h1 class="header">Good Vibes Form</h1>
+        <form class="main-container">
+            <!--form beginning-->
+            <h3 class="description">Tell us something positive that happen to you today.</h3>
+            <div class="data-block">
+                <div class="left">Name</div>
+                <div class="right">
+                    <input type="text" id="name" placeholder="Enter your name">
+                </div>
+            </div>
+            <div class="data-block">
+                <div class="left">Email</div>
+                <div class="right">
+                    <input type="text" id="name" placeholder="Enter your email address">
+                </div>
+            </div>
+            <div class="data-block">
+                <div class="left">On a scale of1-10, how good was it?</div>
+                <div class="right">
+                    <input type="text" id="name" placeholder="Enter a number">
+                </div>
+            </div>
+            <div class="data-block">
+                <div class="left">Where did it happend?</div>
+                <div class="right">
+                    <select>
+                        <option value="home">At home</option>
+                        <option value="work">At work</option>
+                        <option value="walk">On a walk</option>
+                        <option value="beach">On the baech</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="data-block">
+                <div class="left">At what time of day did it happen?</div>
+                <!--Day blog-->
+                <div class="right">
+                <ul>
+                    <li>
+                        <input type=radio name="day" id="Morning">
+                        Morning
+                    </li>
+                    <li>
+                        <input type=radio name="day" id=Afternoon>
+                        Afternoon
+                    </li>
+                    <li>
+                        <input type=radio name="day" id="Evening">
+                        Evening
+                    </li>
+                </ul>
+            </div>
+            </div>
+
+            <div class="data-block">
+                <div class="left"> What emotions did you experience?(Select all that apply)</div>
+                <!--Checkbox blog-->
+                <div class="right">
+                    <ul>
+                        <li><input type="checkbox" id="Excited">
+                            Excited</li>
+                        <li>
+                            <input type="checkbox" id="Humbled">
+                            Humbled
+                        </li>
+                        <li>
+                            <input type="checkbox" id="Elated">
+                            Elated
+                        </li>
+                        <li>
+                            <input type="checkbox" id="loved">
+                            loved
+                        </li>
+                        <li>
+                            <input type="checkbox" id="Enthusiastic">
+                            Enthusiastic
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="data-block">
+                <div class="left">Please describe your positive experience?</div>
+                <div class="right">
+                    <textarea cols="30" rows="5" placeholder="Enter your experience here..."></textarea>
+                </div>
+            </div>
+            <div class="left">
+                <button class="button" id="submit" type="submit">Submit</button>
+            </div>
+            </div>
+        </form>
+        </div>
+    </main>
+</body>
+
+</html>
 </body>
 </html>
